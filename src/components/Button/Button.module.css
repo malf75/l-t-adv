@@ -18,6 +18,7 @@
     background-color: #F0A500;
     color: black;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:450px){

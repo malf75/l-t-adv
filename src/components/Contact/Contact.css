@@ -24,6 +24,12 @@
     box-shadow: 5px 5px 20px black;
 }
 
+.card__contato:hover{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    transition: 0.5s;
+}
+
 .ancora__contato{
     display: flex;
     flex-direction: row;
@@ -71,6 +77,9 @@
 .ancora__inicio:hover{
     border-radius: 10px;
     background-color: rgb(4, 13, 18, 0.3);
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    transition: 0.5s;
 }
 
 .nome__contato{

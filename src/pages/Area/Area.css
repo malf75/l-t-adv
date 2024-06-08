@@ -9,10 +9,14 @@
     color: #F0A500;
     padding: 0.5em;
     margin-top: 5em;
+    margin-bottom: 1em;
     margin-left: 40vw;
 }
 
 .ancora__inicio-area:hover{
     border-radius: 10px;
     background-color: rgb(4, 13, 18, 0.3);
+    margin-top: 4em;
+    margin-bottom: 2em;
+    transition: 0.5s;
 }
