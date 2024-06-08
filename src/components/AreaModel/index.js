@@ -9,6 +9,8 @@ export default function AreaModel({children, titulo}){
             <div className={styles.areaConteudoContainer}>
                 {children}
             </div>
+            <a href='#inicio' className='ancora__inicio'><div><i className="fa-solid fa-angle-up"></i></div> 
+            Voltar para o início</a>
         </article>
     )
 }
