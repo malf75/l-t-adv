@@ -11,7 +11,6 @@ export default function Area(){
     const area = areas.find((area) =>{
         return area.id === Number(parametros.id)
     })
-    console.log(area.titulo)
 
     if(!area){
         return <NotFound />
@@ -27,6 +26,8 @@ export default function Area(){
                                 {area.texto}
                             </ReactMarkdown>
                         </div>
+                        <a href='#inicio' className='ancora__inicio-area'><div><i className="fa-solid fa-angle-up"></i></div> 
+                        Voltar para o início</a>
                     </AreaModel>
                 }/>
                 </Route>

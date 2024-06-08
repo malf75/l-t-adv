@@ -20,20 +20,6 @@
     font-size: 24px;
 }
 
-.ancora__inicio{
-    text-align: center;
-    overflow-wrap: break-word;
-    width: 130px;
-    text-decoration: none;
-    color: #F0A500;
-    padding: 0.5em;
-}
-
-.ancora__inicio:hover{
-    border-radius: 10px;
-    background-color: rgb(4, 13, 18, 0.3);
-}
-
 @media (max-width: 744px) {
     .areaConteudoContainer {
         padding: 2rem 1.5rem 1.5rem;

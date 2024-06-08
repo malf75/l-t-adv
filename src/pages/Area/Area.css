@@ -1,0 +1,18 @@
+.ancora__inicio-area{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+    overflow-wrap: break-word;
+    width: 150px;
+    text-decoration: none;
+    color: #F0A500;
+    padding: 0.5em;
+    margin-top: 5em;
+    margin-left: 40vw;
+}
+
+.ancora__inicio-area:hover{
+    border-radius: 10px;
+    background-color: rgb(4, 13, 18, 0.3);
+}
