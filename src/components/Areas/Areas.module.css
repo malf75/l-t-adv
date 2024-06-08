@@ -1,0 +1,74 @@
+.Areas1{
+    border-top: 1px solid #F0A500;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: 5em;
+    color: #F0A500;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.titulo{
+    font-size: 22px;
+}
+
+.Areas{
+    padding: 3em 15vw 5em 15vw;
+    display: flex;
+    background-color: #070F2B;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.Area__card{
+    background-color: rgb(4, 13, 18, 0.3);
+    border-radius: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 1em;
+    flex-direction: column;
+    align-items: center;
+    color: #F0A500;
+    text-align: center;
+    margin-right: 1em;
+    text-wrap: wrap;
+    line-break:strict;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px black;
+    list-style: none;
+}
+
+.Area__card:hover{
+    margin-top: -1.0em;
+    margin-bottom: 1.0em;
+    transition: 0.5s;
+}
+
+.Area__titulo{
+    font-size: 24px;
+}
+
+@media screen and (max-width:1080px){
+    .Areas{
+        padding: 2em;
+    }
+    .Area__card{
+        margin-right: 1em;
+        width: 260px;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width:450px){
+    .Areas{
+        flex-direction: column;  
+    }
+
+    .Area__card{
+        margin-right: 0;
+        width: 260px;
+        margin-bottom: 1em;
+    }
+}

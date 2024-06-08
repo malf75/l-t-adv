@@ -1,0 +1,11 @@
+.redirect__btn{
+    font-size: 24px;
+    color: #F0A500;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+.redirect__btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
