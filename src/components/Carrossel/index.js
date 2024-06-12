@@ -20,7 +20,7 @@ export default function Carrossel(){
             return (
             <SwiperSlide key={adv.oab} style={{display:"flex", alignItems:"center", backgroundColor:"#000000"}}>
             <div className='card'>
-            <img className='imagem__card' src={adv.imagem} alt='Foto da Karen'/>
+            <img className='imagem__card' src={adv.imagem} alt='Foto do advogado'/>
             <div className='descricao'>
             <h1 className='nome'>{adv.nome}</h1>
             <p>{adv.resumo}</p>
