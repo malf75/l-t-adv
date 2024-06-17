@@ -20,7 +20,7 @@
     background-color: rgb(4, 13, 18, 0.3);
     border-radius: 20px;
     width: 350px;
-    margin: 3em 0 3em 1em;
+    margin: 3em 0.5em 3em 0.5em;
     box-shadow: 5px 5px 20px black;
 }
 
@@ -72,7 +72,7 @@
     text-decoration: none;
     color: #F0A500;
     padding: 0.5em;
-    margin-left: 1em;
+
 }
 
 .ancora__inicio:hover{
@@ -107,5 +107,6 @@
 
     .card__contato{
         margin-left: 0;
+        margin-right: 0;
     }
 }
