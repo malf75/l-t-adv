@@ -8,11 +8,11 @@
     font-weight: 700;
     color: #F0A500;
     align-items: center;
-    padding: 0 17em 0 20em;
+    padding: 0 17em 0 17em;
 }
 
 .localizacao{
-    width: 200px;
+    width: 250px;
     overflow-wrap: break-word;
 }
 
@@ -46,9 +46,15 @@
     height: 180px;
 }
 
+@media screen and (max-width:1600px){
+    .footer{
+        padding: 0 12em 0 12em;
+    }
+}
+
 @media screen and (max-width:1080px){
     .footer{
-        padding: 0 8em 0 8em;
+        padding: 0 4em 0 4em;
     }
 }
 

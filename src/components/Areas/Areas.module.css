@@ -13,7 +13,7 @@
 }
 
 .Areas{
-    padding: 3em 15vw 5em 15vw;
+    padding: 3em 0 5em 0;
     display: flex;
     background-color: #070F2B;
     justify-content: center;
@@ -32,7 +32,8 @@
     align-items: center;
     color: #F0A500;
     text-align: center;
-    margin-right: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
     text-wrap: wrap;
     line-break:strict;
     font-size: 20px;
@@ -54,21 +55,22 @@
     .Areas{
         padding: 2em;
     }
-    .Area__card{
-        margin-right: 1em;
-        width: 260px;
-        margin-bottom: 1em;
-    }
 }
 
 @media screen and (max-width:450px){
     .Areas{
         flex-direction: column;  
+        align-items: center;
     }
 
     .Area__card{
         margin-right: 0;
         width: 260px;
         margin-bottom: 1em;
+        margin-left: 0;
+    }
+
+    .Area__card:hover{
+        margin-top: 0em;
     }
 }

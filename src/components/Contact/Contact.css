@@ -72,14 +72,12 @@
     text-decoration: none;
     color: #F0A500;
     padding: 0.5em;
+    margin-left: 1em;
 }
 
 .ancora__inicio:hover{
     border-radius: 10px;
     background-color: rgb(4, 13, 18, 0.3);
-    margin-top: -0.5em;
-    margin-bottom: 0.5em;
-    transition: 0.5s;
 }
 
 .nome__contato{
@@ -105,5 +103,9 @@
     
     .cards{
         flex-direction: column;
+    }
+
+    .card__contato{
+        margin-left: 0;
     }
 }

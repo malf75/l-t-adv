@@ -26,8 +26,10 @@ export default function Area(){
                                 {area.texto}
                             </ReactMarkdown>
                         </div>
+                        <div className='ancora__div'>
                         <a href='#inicio' className='ancora__inicio-area'><div><i className="fa-solid fa-angle-up"></i></div> 
                         Voltar para o início</a>
+                        </div>
                     </AreaModel>
                 }/>
                 </Route>

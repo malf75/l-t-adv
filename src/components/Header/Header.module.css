@@ -37,14 +37,16 @@
         height: 280px;
         width: 100vw;
         justify-content:start;
+        align-items: center;
     }
 
     .logo{
         margin-left: 0;
+        margin-bottom: 1em;
     }
 
     .logo__img{
-        width: 180px;
-        height: 130px;
+        width: 240px;
+        height: 160px;
     }
 }

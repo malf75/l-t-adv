@@ -13,7 +13,6 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: #070F2B;
 }
 
@@ -24,6 +23,15 @@
     border-radius: 400px;
     border: 2px solid #F0A500;
     opacity: 100%;
+}
+
+@media screen and (max-width:1600px){
+    .imagem__card{
+        max-width: 30%;
+    }
+    .descricao{
+        padding: 1em 12em 1em 6em;
+    }
 }
 
 @media screen and (max-width:1080px){
